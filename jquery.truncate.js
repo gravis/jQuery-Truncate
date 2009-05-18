@@ -1,3 +1,10 @@
+/* 
+  JQuery Truncate (http://www.reindel.com/truncate/ | https://github.com/gravis/jQuery-Truncate/tree)
+  v2.3.1 release
+  Tested with jQuery 1.3                                                                            
+  Author : Brian Reindel
+*/ 
+
 jQuery.fn.truncate = function( max, settings ) {
     settings = jQuery.extend( {
         chars: /\s/,
