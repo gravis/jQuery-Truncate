@@ -17,7 +17,7 @@ jQuery.fn.truncate = function( max, settings ) {
             o.style.removeAttribute( "filter" );
         }
     }
-    var original_max = max                        
+    var original_max = max;
     return this.each( function() {
         var $this = jQuery(this);
         var myStrOrig = $this.html().replace( /\r\n/gim, "" );
