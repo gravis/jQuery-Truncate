@@ -1,0 +1,6 @@
+h1. jQuery Truncate
+
+This repo is a fork from the "jQuery Truncate lib":http://www.reindel.com/truncate/ from "Brian Reindel":http://blog.reindel.com/.
+
+I've corrected a bug when truncated text doesn't have any space. I'm really not a javascript expert, feel free to correct / improve this code !
+
