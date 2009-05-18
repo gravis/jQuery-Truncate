@@ -42,9 +42,7 @@ jQuery.fn.truncate = function( max, settings ) {
                 max--;
             }            
             if ( max == 0 ) {
-
               myStr = myStr.substring( 0, original_max );
-
             }              
             
             if ( myStrOrig.search( myRegEx ) != -1 ) {
