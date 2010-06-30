@@ -1,0 +1,6 @@
+h1. jQuery.truncate Changelog
+
+h2. 2.3.2
+
+* Update to jquery 1.4.2 (latest currently)
+* Bugfix: Text was truncated more and more in table due to a variable initialization problem [gchurchley]
