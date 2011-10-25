@@ -11,7 +11,7 @@ jQuery.fn.truncate = function( max, settings ) {
         trail: [ "...", "" ]
     }, settings );
     var myResults = {};
-    var ie = $.browser.msie;
+    var ie = jQuery.browser.msie;
     function fixIE( o ) {
         if ( ie ) {
             o.style.removeAttribute( "filter" );
@@ -25,7 +25,7 @@ jQuery.fn.truncate = function( max, settings ) {
         var myRegEx = /<\/?[^<>]*\/?>/gim;
         var myRegExArray;
         var myRegExHash = {};
-        var myResultsKey = $("*").index( this );
+        var myResultsKey = jQuery("*").index( this );
         while ( ( myRegExArray = myRegEx.exec( myStr ) ) != null ) {
             myRegExHash[ myRegExArray.index ] = myRegExArray[ 0 ];
         }
